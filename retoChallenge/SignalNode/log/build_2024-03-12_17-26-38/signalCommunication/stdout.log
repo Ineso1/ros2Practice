@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/signalCommunication/signalCommunication.egg-info
+writing ../../build/signalCommunication/signalCommunication.egg-info/PKG-INFO
+writing dependency_links to ../../build/signalCommunication/signalCommunication.egg-info/dependency_links.txt
+writing entry points to ../../build/signalCommunication/signalCommunication.egg-info/entry_points.txt
+writing requirements to ../../build/signalCommunication/signalCommunication.egg-info/requires.txt
+writing top-level names to ../../build/signalCommunication/signalCommunication.egg-info/top_level.txt
+writing manifest file '../../build/signalCommunication/signalCommunication.egg-info/SOURCES.txt'
+reading manifest file '../../build/signalCommunication/signalCommunication.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/signalCommunication/signalCommunication.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build/lib
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build/lib/signalCommunication
+copying signalCommunication/signalGenerator.py -> /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build/lib/signalCommunication
+copying signalCommunication/__init__.py -> /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build/lib/signalCommunication
+running install
+running install_lib
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication
+copying /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build/lib/signalCommunication/signalGenerator.py -> /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication
+copying /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build/lib/signalCommunication/__init__.py -> /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication
+byte-compiling /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication/signalGenerator.py to signalGenerator.cpython-310.pyc
+byte-compiling /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/ament_index
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/ament_index/resource_index
+creating /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/ament_index/resource_index/packages
+copying resource/signalCommunication -> /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/ament_index/resource_index/packages
+copying package.xml -> /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication
+running install_egg_info
+Copying ../../build/signalCommunication/signalCommunication.egg-info to /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication-0.0.0-py3.10.egg-info
+running install_scripts
+Installing signalGenerator script to /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/signalCommunication
+writing list of installed files to '/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/install.log'

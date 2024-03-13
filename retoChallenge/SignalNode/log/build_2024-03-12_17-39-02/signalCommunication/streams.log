@@ -1,0 +1,24 @@
+[2.196s] Invoking command in '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication': PYTHONPATH=/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/prefix_override:/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signalCommunication build --build-base /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build install --record /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/install.log --single-version-externally-managed
+[2.931s] running egg_info
+[2.933s] writing ../../build/signalCommunication/signalCommunication.egg-info/PKG-INFO
+[2.933s] writing dependency_links to ../../build/signalCommunication/signalCommunication.egg-info/dependency_links.txt
+[2.934s] writing entry points to ../../build/signalCommunication/signalCommunication.egg-info/entry_points.txt
+[2.934s] writing requirements to ../../build/signalCommunication/signalCommunication.egg-info/requires.txt
+[2.935s] writing top-level names to ../../build/signalCommunication/signalCommunication.egg-info/top_level.txt
+[2.943s] reading manifest file '../../build/signalCommunication/signalCommunication.egg-info/SOURCES.txt'
+[2.944s] adding license file 'LICENSE'
+[2.946s] writing manifest file '../../build/signalCommunication/signalCommunication.egg-info/SOURCES.txt'
+[2.947s] running build
+[2.947s] running build_py
+[2.948s] running install
+[2.949s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.949s]   warnings.warn(
+[2.949s] running install_lib
+[2.953s] running install_data
+[2.955s] running install_egg_info
+[2.959s] removing '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication-0.0.0-py3.10.egg-info' (and everything under it)
+[2.960s] Copying ../../build/signalCommunication/signalCommunication.egg-info to /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages/signalCommunication-0.0.0-py3.10.egg-info
+[2.963s] running install_scripts
+[3.021s] Installing signalGenerator script to /home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/signalCommunication
+[3.022s] writing list of installed files to '/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/install.log'
+[3.087s] Invoked command in '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication' returned '0': PYTHONPATH=/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/prefix_override:/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signalCommunication build --build-base /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build install --record /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/install.log --single-version-externally-managed

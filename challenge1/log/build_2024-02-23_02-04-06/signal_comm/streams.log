@@ -1,0 +1,27 @@
+[2.411s] Invoking command in '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm': PYTHONPATH=/home/ines/Documents/challengesRos/signalProcess/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/build install --record /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/install.log --single-version-externally-managed
+[3.168s] running egg_info
+[3.170s] writing ../../build/signal_comm/signal_comm.egg-info/PKG-INFO
+[3.171s] writing dependency_links to ../../build/signal_comm/signal_comm.egg-info/dependency_links.txt
+[3.172s] writing entry points to ../../build/signal_comm/signal_comm.egg-info/entry_points.txt
+[3.172s] writing requirements to ../../build/signal_comm/signal_comm.egg-info/requires.txt
+[3.172s] writing top-level names to ../../build/signal_comm/signal_comm.egg-info/top_level.txt
+[3.177s] reading manifest file '../../build/signal_comm/signal_comm.egg-info/SOURCES.txt'
+[3.180s] writing manifest file '../../build/signal_comm/signal_comm.egg-info/SOURCES.txt'
+[3.180s] running build
+[3.181s] running build_py
+[3.181s] copying signal_comm/process.py -> /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/build/lib/signal_comm
+[3.182s] running install
+[3.183s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.183s]   warnings.warn(
+[3.184s] running install_lib
+[3.186s] copying /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/build/lib/signal_comm/process.py -> /home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages/signal_comm
+[3.187s] byte-compiling /home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages/signal_comm/process.py to process.cpython-310.pyc
+[3.189s] running install_data
+[3.191s] running install_egg_info
+[3.195s] removing '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages/signal_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[3.195s] Copying ../../build/signal_comm/signal_comm.egg-info to /home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages/signal_comm-0.0.0-py3.10.egg-info
+[3.198s] running install_scripts
+[3.254s] Installing process script to /home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/signal_comm
+[3.256s] Installing signal_generator script to /home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/signal_comm
+[3.257s] writing list of installed files to '/home/ines/Documents/challengesRos/signalProcess/build/signal_comm/install.log'
+[3.327s] Invoked command in '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm' returned '0': PYTHONPATH=/home/ines/Documents/challengesRos/signalProcess/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/build install --record /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/install.log --single-version-externally-managed

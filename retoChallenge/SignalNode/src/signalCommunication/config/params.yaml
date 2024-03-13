@@ -1,0 +1,6 @@
+signal_generator_node:
+  ros__parameters:
+    signal_type: 'sine'  # Can be 'sine', 'square', or 'sawtooth'
+    amplitude: 1.0       # Adjust the amplitude of the signal
+    frequency: 0.01       # Set the frequency of the signal
+    offset: 0.0          # Set the offset of the signal

@@ -1,0 +1,127 @@
+[3.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f220d9f3670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f220dc569b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f220dc569b0>>)
+[3.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.241s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ines/Desktop/RetoRos_1/ControllerNode'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extensions ['ignore', 'ignore_ament_install']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extension 'ignore'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extension 'ignore_ament_install'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extensions ['colcon_pkg']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extension 'colcon_pkg'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extensions ['colcon_meta']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extension 'colcon_meta'
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extensions ['ros']
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/signalCommunication) by extension 'ros'
+[3.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/signalCommunication' with type 'ros.ament_python' and name 'signalCommunication'
+[3.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ines/ros2_utilities_ws/install
+[3.731s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'cmake_args' from command line to 'None'
+[4.034s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'cmake_target' from command line to 'None'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'cmake_clean_cache' from command line to 'False'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'cmake_clean_first' from command line to 'False'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'cmake_force_configure' from command line to 'False'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'ament_cmake_args' from command line to 'None'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'catkin_cmake_args' from command line to 'None'
+[4.035s] Level 5:colcon.colcon_core.verb:set package 'signalCommunication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.036s] DEBUG:colcon.colcon_core.verb:Building package 'signalCommunication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication', 'merge_install': False, 'path': '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication', 'symlink_install': False, 'test_result_base': None}
+[4.084s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.133s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication' with build type 'ament_python'
+[4.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('signalCommunication', 'ament_prefix_path')
+[4.190s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/hook/ament_prefix_path.ps1'
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/hook/ament_prefix_path.dsv'
+[4.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/hook/ament_prefix_path.sh'
+[4.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.186s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication'
+[5.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication': PYTHONPATH=/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/prefix_override:/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signalCommunication build --build-base /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build install --record /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/install.log --single-version-externally-managed
+[7.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ines/Desktop/RetoRos_1/ControllerNode/src/signalCommunication' returned '0': PYTHONPATH=/home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/prefix_override:/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signalCommunication build --build-base /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/build install --record /home/ines/Desktop/RetoRos_1/ControllerNode/build/signalCommunication/install.log --single-version-externally-managed
+[7.283s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication' for CMake module files
+[7.285s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication' for CMake config files
+[7.287s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib'
+[7.288s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/bin'
+[7.288s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/pkgconfig/signalCommunication.pc'
+[7.289s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/lib/python3.10/site-packages'
+[7.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('signalCommunication', 'pythonpath')
+[7.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/hook/pythonpath.ps1'
+[7.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/hook/pythonpath.dsv'
+[7.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/hook/pythonpath.sh'
+[7.339s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/bin'
+[7.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signalCommunication)
+[7.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/package.ps1'
+[7.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/package.dsv'
+[7.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/package.sh'
+[7.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/package.bash'
+[7.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/signalCommunication/package.zsh'
+[7.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ines/Desktop/RetoRos_1/ControllerNode/install/signalCommunication/share/colcon-core/packages/signalCommunication)
+[7.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.403s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.404s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.481s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.481s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.518s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/local_setup.ps1'
+[7.592s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ines/Desktop/RetoRos_1/ControllerNode/install/_local_setup_util_ps1.py'
+[7.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/setup.ps1'
+[7.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/local_setup.sh'
+[7.671s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ines/Desktop/RetoRos_1/ControllerNode/install/_local_setup_util_sh.py'
+[7.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/setup.sh'
+[7.744s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/local_setup.bash'
+[7.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/setup.bash'
+[7.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/local_setup.zsh'
+[7.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Desktop/RetoRos_1/ControllerNode/install/setup.zsh'

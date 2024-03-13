@@ -1,0 +1,28 @@
+[2.113s] Invoking command in '/home/ines/Documents/challengesRos/challenge2/src/signal_comm': PYTHONPATH=/home/ines/Documents/challengesRos/challenge2/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/challenge2/build/signal_comm/build install --record /home/ines/Documents/challengesRos/challenge2/build/signal_comm/install.log --single-version-externally-managed
+[2.811s] running egg_info
+[2.813s] writing ../../build/signal_comm/signal_comm.egg-info/PKG-INFO
+[2.813s] writing dependency_links to ../../build/signal_comm/signal_comm.egg-info/dependency_links.txt
+[2.814s] writing entry points to ../../build/signal_comm/signal_comm.egg-info/entry_points.txt
+[2.814s] writing requirements to ../../build/signal_comm/signal_comm.egg-info/requires.txt
+[2.815s] writing top-level names to ../../build/signal_comm/signal_comm.egg-info/top_level.txt
+[2.820s] reading manifest file '../../build/signal_comm/signal_comm.egg-info/SOURCES.txt'
+[2.823s] writing manifest file '../../build/signal_comm/signal_comm.egg-info/SOURCES.txt'
+[2.823s] running build
+[2.824s] running build_py
+[2.824s] copying signal_comm/signal_generator.py -> /home/ines/Documents/challengesRos/challenge2/build/signal_comm/build/lib/signal_comm
+[2.825s] running install
+[2.825s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.826s]   warnings.warn(
+[2.827s] running install_lib
+[2.828s] copying /home/ines/Documents/challengesRos/challenge2/build/signal_comm/build/lib/signal_comm/signal_generator.py -> /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages/signal_comm
+[2.830s] byte-compiling /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages/signal_comm/signal_generator.py to signal_generator.cpython-310.pyc
+[2.832s] Sorry: IndentationError: expected an indented block after function definition on line 29 (signal_generator.py, line 30)
+[2.832s] running install_data
+[2.833s] running install_egg_info
+[2.837s] removing '/home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages/signal_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[2.838s] Copying ../../build/signal_comm/signal_comm.egg-info to /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages/signal_comm-0.0.0-py3.10.egg-info
+[2.841s] running install_scripts
+[2.895s] Installing process script to /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/signal_comm
+[2.895s] Installing signal_generator script to /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/signal_comm
+[2.896s] writing list of installed files to '/home/ines/Documents/challengesRos/challenge2/build/signal_comm/install.log'
+[2.952s] Invoked command in '/home/ines/Documents/challengesRos/challenge2/src/signal_comm' returned '0': PYTHONPATH=/home/ines/Documents/challengesRos/challenge2/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/challenge2/build/signal_comm/build install --record /home/ines/Documents/challengesRos/challenge2/build/signal_comm/install.log --single-version-externally-managed

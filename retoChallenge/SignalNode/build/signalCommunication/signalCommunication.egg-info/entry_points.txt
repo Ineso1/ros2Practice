@@ -1,0 +1,3 @@
+[console_scripts]
+signalGenerator = signalCommunication.signalGenerator:main
+

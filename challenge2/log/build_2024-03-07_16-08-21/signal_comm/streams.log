@@ -1,0 +1,24 @@
+[2.156s] Invoking command in '/home/ines/Documents/challengesRos/challenge2/src/signal_comm': PYTHONPATH=/home/ines/Documents/challengesRos/challenge2/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/challenge2/build/signal_comm/build install --record /home/ines/Documents/challengesRos/challenge2/build/signal_comm/install.log --single-version-externally-managed
+[2.843s] running egg_info
+[2.845s] writing ../../build/signal_comm/signal_comm.egg-info/PKG-INFO
+[2.846s] writing dependency_links to ../../build/signal_comm/signal_comm.egg-info/dependency_links.txt
+[2.847s] writing entry points to ../../build/signal_comm/signal_comm.egg-info/entry_points.txt
+[2.847s] writing requirements to ../../build/signal_comm/signal_comm.egg-info/requires.txt
+[2.848s] writing top-level names to ../../build/signal_comm/signal_comm.egg-info/top_level.txt
+[2.852s] reading manifest file '../../build/signal_comm/signal_comm.egg-info/SOURCES.txt'
+[2.855s] writing manifest file '../../build/signal_comm/signal_comm.egg-info/SOURCES.txt'
+[2.855s] running build
+[2.856s] running build_py
+[2.857s] running install
+[2.857s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.858s]   warnings.warn(
+[2.858s] running install_lib
+[2.862s] running install_data
+[2.863s] running install_egg_info
+[2.867s] removing '/home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages/signal_comm-0.0.0-py3.10.egg-info' (and everything under it)
+[2.868s] Copying ../../build/signal_comm/signal_comm.egg-info to /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages/signal_comm-0.0.0-py3.10.egg-info
+[2.871s] running install_scripts
+[2.924s] Installing process script to /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/signal_comm
+[2.924s] Installing signal_generator script to /home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/signal_comm
+[2.925s] writing list of installed files to '/home/ines/Documents/challengesRos/challenge2/build/signal_comm/install.log'
+[2.983s] Invoked command in '/home/ines/Documents/challengesRos/challenge2/src/signal_comm' returned '0': PYTHONPATH=/home/ines/Documents/challengesRos/challenge2/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/challenge2/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/challenge2/build/signal_comm/build install --record /home/ines/Documents/challengesRos/challenge2/build/signal_comm/install.log --single-version-externally-managed

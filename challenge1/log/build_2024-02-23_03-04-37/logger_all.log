@@ -1,0 +1,128 @@
+[3.283s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.283s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7b2b9e7ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7b2bc3ceb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7b2bc3ceb0>>)
+[3.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.431s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ines/Documents/challengesRos/signalProcess'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extensions ['ignore', 'ignore_ament_install']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extension 'ignore'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extension 'ignore_ament_install'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extensions ['colcon_pkg']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extension 'colcon_pkg'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extensions ['colcon_meta']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extension 'colcon_meta'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extensions ['ros']
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/signal_comm) by extension 'ros'
+[3.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/signal_comm' with type 'ros.ament_python' and name 'signal_comm'
+[3.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.862s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ines/Documents/challengesRos/signalProcess/install
+[3.908s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ines/Documents/challengesRos/challenge1/install
+[3.956s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'cmake_args' from command line to 'None'
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'cmake_target' from command line to 'None'
+[4.240s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'cmake_clean_first' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'cmake_force_configure' from command line to 'False'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'ament_cmake_args' from command line to 'None'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[4.241s] Level 5:colcon.colcon_core.verb:set package 'signal_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.241s] DEBUG:colcon.colcon_core.verb:Building package 'signal_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ines/Documents/challengesRos/signalProcess/build/signal_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm', 'merge_install': False, 'path': '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm', 'symlink_install': False, 'test_result_base': None}
+[4.286s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.334s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm' with build type 'ament_python'
+[4.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_comm', 'ament_prefix_path')
+[4.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/hook/ament_prefix_path.ps1'
+[4.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/hook/ament_prefix_path.dsv'
+[4.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/hook/ament_prefix_path.sh'
+[4.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.482s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm'
+[5.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm': PYTHONPATH=/home/ines/Documents/challengesRos/signalProcess/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/build install --record /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/install.log --single-version-externally-managed
+[7.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ines/Documents/challengesRos/signalProcess/src/signal_comm' returned '0': PYTHONPATH=/home/ines/Documents/challengesRos/signalProcess/build/signal_comm/prefix_override:/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/signal_comm build --build-base /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/build install --record /home/ines/Documents/challengesRos/signalProcess/build/signal_comm/install.log --single-version-externally-managed
+[7.690s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm' for CMake module files
+[7.693s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm' for CMake config files
+[7.697s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/bin'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/pkgconfig/signal_comm.pc'
+[7.699s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/lib/python3.10/site-packages'
+[7.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_comm', 'pythonpath')
+[7.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/hook/pythonpath.ps1'
+[7.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/hook/pythonpath.dsv'
+[7.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/hook/pythonpath.sh'
+[7.752s] Level 1:colcon.colcon_core.environment:checking '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/bin'
+[7.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_comm)
+[7.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/package.ps1'
+[7.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/package.dsv'
+[7.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/package.sh'
+[7.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/package.bash'
+[7.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/signal_comm/package.zsh'
+[7.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ines/Documents/challengesRos/signalProcess/install/signal_comm/share/colcon-core/packages/signal_comm)
+[7.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.836s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.836s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.965s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.966s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.002s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Documents/challengesRos/signalProcess/install/local_setup.ps1'
+[8.072s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ines/Documents/challengesRos/signalProcess/install/_local_setup_util_ps1.py'
+[8.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Documents/challengesRos/signalProcess/install/setup.ps1'
+[8.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Documents/challengesRos/signalProcess/install/local_setup.sh'
+[8.125s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ines/Documents/challengesRos/signalProcess/install/_local_setup_util_sh.py'
+[8.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Documents/challengesRos/signalProcess/install/setup.sh'
+[8.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Documents/challengesRos/signalProcess/install/local_setup.bash'
+[8.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Documents/challengesRos/signalProcess/install/setup.bash'
+[8.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ines/Documents/challengesRos/signalProcess/install/local_setup.zsh'
+[8.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ines/Documents/challengesRos/signalProcess/install/setup.zsh'
